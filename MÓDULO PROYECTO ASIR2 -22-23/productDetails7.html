@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./images/favicon-256x256.png" type="image/x-icon" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+
+  <!-- Custom StyleSheet -->
+  <link rel="stylesheet" href="./styles.css" />
+  <title>Codevo - Ecommerce Website</title>
+</head>
+
+<body>
+ 
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="wrapper container">
+      <div class="logo"><a href="">InGenius</a></div>
+      <ul class="nav-list">
+        <div class="top">
+          <label for="" class="btn close-btn"><i class="fas fa-times"></i></label>
+        </div>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="products.html">Productos</a></li>
+        <li>
+          <a href="" class="desktop-item">Tienda<span> <i class="fas fa-chevron-down"></i></span></a>
+          <input type="checkbox" id="showMega" />
+          <label for="showMega" class="mobile-item">Tienda<span><i class="fas fa-chevron-down"></i></span></label>
+          <div class="mega-box">
+            <div class="content">
+              <div class="row">
+                <img src="./images/adidas4.jpg" alt="" />
+              </div>
+              <div class="row">
+                <header>Precios Especiales</header>
+                <ul class="mega-links">
+                  <li><a href="#">Lo más vendido</a></li>
+                  <li><a href="#">Mini Categorias</a></li>
+                  <li><a href="#">Camisetas y blusas</a></li>
+                  <li><a href="#">¿Quieres aún más?</a></li>
+                </ul>
+              </div>
+              <div class="row">
+                <header>Colaboraciones</header>
+                <ul class="mega-links">
+                  <li><a href="#">Bambi</a></li>
+                  <li><a href="#">Dolce Gabanna</a></li>
+                  <li><a href="#">Lois Vutton</a></li>
+                  <li><a href="#">Gucci</a></li>
+                </ul>
+              </div>
+              <div class="row">
+                <header>Categorias</header>
+                <ul class="mega-links">
+                  <li><a href="#">Para tí hombre</a></li>
+                  <li><a href="#">Para tí mujer</a></li>
+                  <li><a href="#">Género fluido</a></li>
+                  <li><a href="#">Para bebes</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li><a href="">Blog</a></li>
+        <li>
+          <a href="" class="desktop-item">Join Life <span><i class="fas fa-chevron-down"></i></span></a>
+          <input type="checkbox" id="showdrop1" />
+          <label for="showdrop1" class="mobile-item">Reciclaje<span><i class="fas fa-chevron-down"></i></span></label>
+          <ul class="drop-menu1">
+            <li><a href="">Made in Perú</a></li>
+            <li><a href="">Pensado para ti</a></li>
+          </ul>
+        </li>
+
+        <li>
+          <a href="" class="desktop-item">Contacto<span><i class="fas fa-chevron-down"></i></span></a>
+          <input type="checkbox" id="showdrop2" />
+          <label for="showdrop2" class="mobile-item">Proyectos<span><i class="fas fa-chevron-down"></i></span></label>
+          <ul class="drop-menu2">
+            <li><a href="">Sobre nosotros</a></li>
+            <li><a href="">InGenius</a></li>
+            <li><a href="">Faq</a></li>
+            <li><a href="">Creadores</a></li>
+          </ul>
+        </li>
+        <!-- icons -->
+        <li class="icons">
+          <span>
+            <img src="./images/shoppingBag.svg" alt="" />
+            <small class="count d-flex">0</small>
+          </span>
+          <span><img src="./images/search.svg" alt="" /></span>
+        </li>
+      </ul>
+      <label for="" class="btn open-btn"><i class="fas fa-bars"></i></label>
+    </div>
+  </nav>
+
+  <!-- Product Details -->
+  <section class="section product-detail">
+    <div class="details container">
+      <div class="left">
+        <div class="main">
+          <img src="./images/z10.jpeg" alt="" />
+        </div>
+        <div class="thumbnails">
+          <div class="thumbnail">
+            <img src="./images/z10.jpeg" alt="" />
+          </div>
+          <div class="thumbnail">
+            <img src="./images/z4.jpeg" alt="" />
+          </div>
+          <div class="thumbnail">
+            <img src="./images/z11.jpeg" alt="" />
+          </div>
+          <div class="thumbnail">
+            <img src="./images/z7.jpeg" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <span>InGenius</span>
+        <h1>Pantalón Colores L & V</h1>
+        <div class="price">129,99€</div>
+        
+        <form>
+          <div>
+            <select>
+              <option value="Select Size" selected disabled>
+                Selecciona Talla
+              </option>
+              <option value="1">32</option>
+              <option value="2">42</option>
+              <option value="3">52</option>
+              <option value="4">62</option>
+            </select>
+            <span><i class="fas fa-chevron-down"></i></span>
+          </div>
+        </form>
+
+        <form class="form">
+          <input type="text" placeholder="1" />
+          <a href="cart.html" class="addCart">Agregalo al carrito</a>
+        </form>
+        <h3>Detalles del Producto</h3>
+        <p>
+          Pantalón de la marca L&V  reconozida a nivel mundial entre todos sus clientes , esta elaborada con minusioso cuidado y trato, para así poder idetificar su estilo con una personalidad Premiun como lo es Usted.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Related Products -->
+
+  <section class="section related-products">
+    <div class="title">
+      <h2>Productos Destacados</h2>
+      <span>Selecciona entre varios conjuntos premiun que tenemos a tu disposición</span>
+    </div>
+    <div class="product-layout container">
+      <div class="product">
+        <div class="img-container">
+          <img src="./images/product1.jpg" alt="" />
+          <div class="addCart">
+            <i class="fas fa-shopping-cart"></i>
+          </div>
+
+          <ul class="side-icons">
+            <span><i class="fas fa-search"></i></span>
+            <span><i class="far fa-heart"></i></span>
+            <span><i class="fas fa-sliders-h"></i></span>
+          </ul>
+        </div>
+        <div class="bottom">
+          <a href="">Mochila Gucci UItaX</a>
+          <div class="price">
+            <span>150€</span>
+          </div>
+        </div>
+      </div>
+      <div class="product">
+        <div class="img-container">
+          <img src="./images/product2.jpg" alt="" />
+          <div class="addCart">
+            <i class="fas fa-shopping-cart"></i>
+          </div>
+
+          <ul class="side-icons">
+            <span><i class="fas fa-search"></i></span>
+            <span><i class="far fa-heart"></i></span>
+            <span><i class="fas fa-sliders-h"></i></span>
+          </ul>
+        </div>
+        <div class="bottom">
+          <a href="">Bambi Camiseta Marine</a>
+          <div class="price">
+            <span>89,99€
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="product">
+        <div class="img-container">
+          <img src="./images/product3.jpg" alt="" />
+          <div class="addCart">
+            <i class="fas fa-shopping-cart"></i>
+          </div>
+
+          <ul class="side-icons">
+            <span><i class="fas fa-search"></i></span>
+            <span><i class="far fa-heart"></i></span>
+            <span><i class="fas fa-sliders-h"></i></span>
+          </ul>
+        </div>
+        <div class="bottom">
+          <a href="">Calzado Gucci Ultimate</a>
+          <div class="price">
+            <span>250€</span>
+          </div>
+        </div>
+      </div>
+      <div class="product">
+        <div class="img-container">
+          <img src="./images/product4.jpg" alt="" />
+          <div class="addCart">
+            <i class="fas fa-shopping-cart"></i>
+          </div>
+
+          <ul class="side-icons">
+            <span><i class="fas fa-search"></i></span>
+            <span><i class="far fa-heart"></i></span>
+            <span><i class="fas fa-sliders-h"></i></span>
+          </ul>
+        </div>
+        <div class="bottom">
+          <a href="">Mochila Dolce & Gabanna</a>
+          <div class="price">
+            <span>239,99€</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="footer" class="section footer">
+    <div class="container">
+      <div class="footer-container">
+        <div class="footer-center">
+          <h3>EXTRAS</h3>
+          <a href="#">Descubrimientos</a>
+          <a href="#">Bonos</a>
+          <a href="#">Afiliados</a>
+          <a href="#">Especiales</a>
+          <a href="#">Situanos</a>
+        </div>
+        <div class="footer-center">
+          <h3>INFORMACIÓN</h3>
+          <a href="#">Sobre Nosotros</a>
+          <a href="#">Privacidad y politicas
+          </a>
+          <a href="#">Terminos & Condiciones</a>
+          <a href="#">Contactanos</a>
+          <a href="#">Tiendas</a>
+        </div>
+        <div class="footer-center">
+          <h3>MI CUENTA</h3>
+          <a href="#">Mi Cuenta</a>
+          <a href="#">Lista de pedidos</a>
+          <a href="#">Lista de deseos</a>
+          <a href="#">Nuevas Marcas</a>
+          <a href="#">Patrocinio</a>
+        </div>
+        <div class="footer-center">
+          <h3>CONTACTANOS</h3>
+          <div>
+            <span>
+              <i class="fas fa-map-marker-alt"></i>
+            </span>
+            Calle de Pío Felipe, 12, 28038 Madrid
+          </div>
+          <div>
+            <span>
+              <i class="far fa-envelope"></i>
+            </span>
+            ltorresera@gmail.com <br>
+            <span>
+              <i class="far fa-envelope"></i>
+            </span>
+            rsacnhez@gmail.com
+          </div>
+          <div>
+            <span>
+              <i class="fas fa-phone"></i>
+            </span>
+            +34 640124426 <br>
+            <span>
+              <i class="fas fa-phone"></i>
+            </span>
+            +34 640454626
+          </div>
+          <div class="payment-methods">
+            <img src="./images/payment.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+
+  <!-- Custom Scripts -->
+  <script src="./js/products.js"></script>
+  <script src="./js/slider.js"></script>
+  <script src="./js/index.js"></script>
+</body>
+
+</html>
